@@ -9,6 +9,10 @@ const routes = [
     component: initPageWelcome,
   },
   {
+    path: /\/dwf-m5-desafio-final/,
+    component: initPageWelcome,
+  },
+  {
     path: /\/instructions/,
     component: initPageInstructions,
   },
