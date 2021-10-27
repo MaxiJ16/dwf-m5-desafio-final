@@ -31,7 +31,7 @@ export function initPagePlay(params) {
 
   setTimeout(() => {
     params.goTo("/results");
-  }, 4800);
+  }, 6000);
 
   div.appendChild(style);
   return div;
