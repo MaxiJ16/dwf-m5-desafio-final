@@ -37,8 +37,6 @@ export class Hands extends HTMLElement {
 
     .tijera, .piedra, .papel {
       height: 150px;
-      position: relative;
-      top: 30px;
     }
 
     @media(min-width: 769px){
