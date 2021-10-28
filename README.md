@@ -9,7 +9,7 @@ Para que pongas en práctica todo lo que vimos, te proponemos que crees una app 
 
 Recordá que debés utilizar estos elementos para crear la aplicación:
 
-# Router
-# State
-# Pages
-# Components
+- Router
+- State
+- Pages
+- Components
