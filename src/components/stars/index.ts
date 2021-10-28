@@ -36,8 +36,13 @@ export class Star extends HTMLElement {
 
     const style = document.createElement("style");
     style.innerHTML = `
+    * {
+      box-sizing: border-box;
+    }
+    
     .container {
-      width: 300x;
+      width: 300px;
+      height: 300px;
       position: relative;
     }
     

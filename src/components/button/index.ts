@@ -14,6 +14,9 @@ export class Button extends HTMLElement {
 
     const style = document.createElement("style");
     style.innerHTML = `
+    * {
+      box-sizing: border-box;
+    }
     .button {
       width: 100%;
       color: var(--color-button-text);
@@ -25,8 +28,6 @@ export class Button extends HTMLElement {
       border-radius: 10px;
     }
 
-    
-    
     
     `;
 
