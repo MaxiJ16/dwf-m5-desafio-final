@@ -7,9 +7,6 @@ export function initPageResults(params) {
     if (currentState.currentGame.myPlay != "") {
       const myPlay = currentState.currentGame.myPlay;
       const computerPlay = currentState.currentGame.computerPlay;
-      state.subscribe(() => {
-        state.whoWins(myPlay, computerPlay);
-      });
       return state.whoWins(myPlay, computerPlay);
     } else {
       return "Empate";

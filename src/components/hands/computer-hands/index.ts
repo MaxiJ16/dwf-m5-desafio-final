@@ -27,25 +27,16 @@ export class ComputerHands extends HTMLElement {
       container.innerHTML = `
       <img class="piedra" src=${piedraImg}>
       `;
-      state.subscribe(() => {
-        state.setComputerMove("piedra");
-      });
       state.setComputerMove("piedra");
     } else if (computerChoice == 2) {
       container.innerHTML = `
       <img class="papel" src=${papelImg}>
       `;
-      state.subscribe(() => {
-        state.setComputerMove("papel");
-      });
       state.setComputerMove("papel");
     } else if (computerChoice == 3) {
       container.innerHTML = `
       <img class="tijera" src=${tijeraImg}>
       `;
-      state.subscribe(() => {
-        state.setComputerMove("tijera");
-      });
       state.setComputerMove("tijera");
     }
 

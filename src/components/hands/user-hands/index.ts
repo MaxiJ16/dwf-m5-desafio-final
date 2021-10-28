@@ -74,10 +74,6 @@ export class UserHands extends HTMLElement {
           display: none;
         }
       `;
-
-      state.subscribe(() => {
-        state.setMove("piedra");
-      });
       state.setMove("piedra");
     });
 
@@ -96,9 +92,6 @@ export class UserHands extends HTMLElement {
           display: none;
         }
       `;
-      state.subscribe(() => {
-        state.setMove("papel");
-      });
       state.setMove("papel");
     });
 
@@ -117,9 +110,6 @@ export class UserHands extends HTMLElement {
           display: none;
         }
       `;
-      state.subscribe(() => {
-        state.setMove("tijera");
-      });
       state.setMove("tijera");
     });
   }

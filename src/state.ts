@@ -36,10 +36,12 @@ const state = {
   setMove(move: Jugada) {
     const currentState = this.getState();
     currentState.currentGame.myPlay = move;
+    this.setState(currentState)
   },
   setComputerMove(move: Jugada) {
     const currentState = this.getState();
     currentState.currentGame.computerPlay = move;
+    this.setState(currentState)
   },
   whoWins(myPlay: Jugada, computerPlay: Jugada) {
     const currentState = this.getState();
